@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Messaround</title>
+</head>
+<body>
+
+    <h1>Lets learn Javascript    </h1>
+    <h2>lets learn about onclick and alerts</h2>
+
+    <a href="https://www.youtube.com" onclick="alert('Warning you are about to leave the page!')">youtube </a>
+    
+    <h2> How do we display and hide text?</h2>
+       <h2> WHATS MY SECRET IDENTITY GUESS??
+    </h2>
+    <p id="secret"></p>
+    <button onclick="
+    document.getElementById ('secret').innerHTML='I have a big brain, I am Megamind';
+    document.getElementById ('secret').style.display='block';">Reveal</button>
+
+
+<button onclick="document.getElementById('secret').style.display='None';">Hide</button>
+
+
+<h2> How do I change an image on Javascript</h2>
+<img src="images/lighton.jpg" id="myImage"  style="height: 200px; width: 200px;"> 
+<button onclick="document.getElementById ('myImage').src='images/lightoff.jpg' ; "> Bulb off!
+
+</button>
+
+<button onclick="document.getElementById ('myImage').src='images/lighton.jpg';">Bulb on!
+
+</button>
+
+<h2>how do we change styles with a button</h2>
+<p id="alice">Hi, I am Alice</p>
+<button onclick="
+document.getElementById('alice').style.color='blue';
+document.getElementById('alice').style.fontSize='5px';">
+Cake-EAT ME! </button>
+
+<button onclick="
+document.getElementById('alice').style.color='red';
+document.getElementById('alice').style.fontSize='50px';">
+Potion-DRINK ME! </button>
+
+
+<p id="Brennan">Click me to get Brennan's Favorite Color</p>
+<button onclick="
+document.getElementById('Brennan').style.backgroundColor='pink';
+document.getElementById('Brennan').style.fontWeight='900';">
+SUPRISE COLOR!! </button>
+
+
+</body>
+
+</html>
